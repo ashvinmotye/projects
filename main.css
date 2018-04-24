@@ -77,6 +77,7 @@ select {
   border: 2px solid #d3dbe6;
   color: #798ca7;
   outline: none;
+  background-color: white;
 }
 
 .col {

@@ -1,0 +1,194 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background-color: #dee5e8;
+  font-family: 'Roboto', sans-serif;
+  z-index: -10;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 30px 10px;
+}
+
+.container::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+header {
+  margin-bottom: 20px;
+}
+
+header>h1 {
+  text-align: right;
+  margin: -10px 0 0;
+  font-size: 5em;
+  color: #d3dbe6;
+}
+
+header>p {
+  text-align: center;
+  color: #798ca7;
+  width: 40%;
+  margin: -20px auto 0;
+  font-size: 14px;
+}
+
+header>h1::selection,
+.card h1.count::selection {
+  background-color: transparent;
+}
+
+.user-select {
+  text-align: right;
+  margin-right: 100px;
+}
+
+.no-js {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.no-js h1 {
+  font-size: 0.9em;
+  font-weight: 400;
+  color: #EF5350;
+  text-align: center;
+}
+
+.no-js h1 a {
+  color: #EF5350;
+}
+
+select {
+  padding: 5px 30px 5px 10px;
+  border: 2px solid #d3dbe6;
+  color: #798ca7;
+  outline: none;
+}
+
+.col {
+  float: left;
+  width: 30%;
+  margin: 0 1.66%;
+  z-index: -3;
+}
+
+.card {
+  position: relative;
+  background-color: white;
+  color: #798ca7;
+  padding: 30px;
+  margin-bottom: 50px;
+  text-align: center;
+  box-shadow: 0 1px 20px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+}
+
+.card h1.count {
+  color: #eef1f3;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  font-size: 10em;
+  margin-bottom: -40px;
+  margin-right: -15px;
+}
+
+.card>a {
+  display: block;
+  text-decoration: none;
+}
+
+.card h1.project {
+  background-color: #42a5f5;
+  color: white;
+  padding: 10px;
+  margin-bottom: 20px;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 1em;
+  border-radius: 3px;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.card h1.project:hover {
+  background-color: #2196f3;
+}
+
+.card p {
+  font-size: 14px;
+  position: relative;
+  z-index: 2;
+}
+
+.card p>a {
+  color: #798ca7;
+}
+
+.card p:nth-of-type(1) {
+  margin-bottom: 10px;
+}
+
+.card .tag {
+  text-align: center;
+  margin-top: 10px;
+  position: relative;
+  z-index: 2;
+}
+
+.tag>span {
+  color: white;
+  font-size: 12px;
+  display: inline-block;
+  padding: 3px 8px;
+  border-radius: 3px;
+}
+
+.tag>span.game {
+  background-color: #9aca40;
+}
+
+.tag>span.layout {
+  background-color: #FFCA28;
+}
+
+.tag>span.app {
+  background-color: #F44336;
+}
+
+@media (max-width: 800px) {
+  header>p {
+    width: 70%;
+  }
+  .user-select {
+    margin-right: 50px;
+  }
+  .col {
+    width: 40%;
+    margin: 0 5%;
+  }
+}
+
+@media (max-width: 600px) {
+  .user-select {
+    margin-right: 30px;
+  }
+  .col {
+    width: 90%;
+    margin: 0 5%;
+    float: none;
+  }
+}

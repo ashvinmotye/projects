@@ -18,7 +18,7 @@ var projects = [
 
   {
     'name': 'Shopping Cart',
-    'description': 'I often go to buy some items and need to check if I am still within budget. The way I went around was noting down in my note app and switching back and forth to my calculator app. It became quite messy. This idea struck me and was on my bucket list for some time now...finally did it! I realised it can also be used to track daily expenses!',
+    'description': 'I often go to buy some items and need to check if I am still within budget. The way I went around was noting down in my note app and switching back and forth to my calculator app. It became quite messy. This idea struck me and was on my bucket list for some time now...finally did it! I realised it can also be to track daily expenses as well!',
     'link': DOMAIN + 'shopping',
     'created': 'May 2018',
     'category': 'app'

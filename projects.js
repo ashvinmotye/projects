@@ -12,6 +12,14 @@ var categoriesArray = ["app", "game", "layout"];
 
 var projects = [
   {
+    name: "Loto Checker",
+    description:
+      "We play 20 lines of Loto at every draw, same 20 lines! This is an automated app to check how many correct numbers we have after each draw. Built with Heroku nodeJS server.",
+    link: "http://stellaloto.herokuapp.com",
+    created: "April 2019",
+    category: "app"
+  },
+  {
     name: "Budget",
     description:
       "Ever wonder how you span out your salary over a month? This app is here to help you keep track of your expenses!",

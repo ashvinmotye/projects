@@ -80,7 +80,7 @@ function createCards(projectNumber, project, column) {
 
   card.appendChild(anchor);
   card.appendChild(descriptionPara);
-  card.appendChild(datePara);
+//   card.appendChild(datePara);
   card.appendChild(tagDiv);
   card.appendChild(countH1);
 

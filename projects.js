@@ -1,4 +1,4 @@
-var DOMAIN = "http://ashvinmotye.com/";
+var DOMAIN = "http://ashvinmotye.github.io/";
 
 var objectTemplate = {
   name: "",

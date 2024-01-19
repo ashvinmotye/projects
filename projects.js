@@ -12,11 +12,19 @@ var categoriesArray = ["app", "game", "layout"];
 
 var projects = [
   {
-    name: "Loto Checker",
+    name: "Out of Office",
     description:
-      "We play 20 lines of Loto at every draw, same 20 lines! This is an automated app to check how many correct numbers we have after each draw. Built with Heroku nodeJS server. Still ongoing project.",
-    link: "http://stellaloto.herokuapp.com",
-    created: "April 2019",
+      "An out of office message generator to use when you are away from work, with selection of start and end dates, public holiday and option of listing an alternate person to contact in your absence.",
+    link: DOMAIN + "out-of-office",
+    created: "January 2024",
+    category: "app"
+  },
+  {
+    name: "Bollywood Netflix Tracker",
+    description:
+      "List of all bollywood or Hindi language movies available currently on Netflix, at least by the time I last updated the app. This app involves manual scraping of data from Neflix.",
+    link: DOMAIN + "netflix-bollywood",
+    created: "April 2021",
     category: "app"
   },
   {
